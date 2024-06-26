@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -g -Wall -I. -Isrc/app/Cipher -Isrc/app/fileHandling -Isrc/app/processes
 
-MAIN_TARGET = encrypt_decrypt
+MAIN_TARGET = cryptix
 CRYPTION_TARGET = cryption
 
 MAIN_SRC = main.cpp \
